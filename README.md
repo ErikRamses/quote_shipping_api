@@ -15,9 +15,9 @@ Before you begin, ensure you have the following installed on your machine:
 
 ### 1. Start the Database (PostgreSQL)
 
-This project uses Docker Compose to run a PostgreSQL database. The configuration matches the default `DATABASE_URL` in the `.env` file.
+This project uses Docker Compose to run a PostgreSQL database. The configuration matches the default `DATABASE_URL` in the `.env.example` file.
 
-To start the database container:
+To start the database container, rename `.env.example` to `.env` and fill the required values:
 
 ```bash
 docker compose up -d
